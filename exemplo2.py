@@ -8,9 +8,9 @@ df = pd.read_excel('vendas_roupas1.xlsx')
 categoria = df['Categoria']
 quantidade_vendida = df['Quantidade Vendida']
 
-q1 = np.quantile(quantidade_vendida, 0,25)
-q2 = np.quantile(quantidade_vendida, 0,50)
-q3 = np.quantile(quantidade_vendida, 0,75)
+q1 = np.quantile(quantidade_vendida, 0.25)
+q2 = np.quantile(quantidade_vendida, 0.50)
+q3 = np.quantile(quantidade_vendida, 0.75)
 
 media = np.mean(quantidade_vendida)
 mediana = np.median(quantidade_vendida)
