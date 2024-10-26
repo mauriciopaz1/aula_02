@@ -1,1 +1,1 @@
-topvendas = quantidade_vendida[quantidade_vendida['Total']> q3]
+print(vendas[["Nome do Produto","Total"]])
